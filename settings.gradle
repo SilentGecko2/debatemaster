@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "JADE Debate Master v1.0.1"

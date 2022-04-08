@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DebateWorldActivity">
+
+    <ImageView
+        android:id="@+id/img_economics6"
+        android:layout_width="95dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toEndOf="@+id/img_economics5"
+        app:layout_constraintTop_toTopOf="@+id/txt_economics5"
+        app:srcCompat="@drawable/img_tech" />
+
+    <EditText
+        android:id="@+id/txt_economics5"
+        android:layout_width="91dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Technology"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/txt_economics4"
+        app:layout_constraintTop_toBottomOf="@+id/img_environment" />
+
+    <ImageView
+        android:id="@+id/img_economics5"
+        android:layout_width="88dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/img_economics3"
+        app:layout_constraintTop_toTopOf="@+id/txt_economics4"
+        app:srcCompat="@drawable/img_law" />
+
+    <EditText
+        android:id="@+id/txt_economics4"
+        android:layout_width="44dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Law"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/txt_economics3"
+        app:layout_constraintTop_toBottomOf="@+id/img_politics" />
+
+    <ImageView
+        android:id="@+id/img_economics3"
+        android:layout_width="91dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txt_economics3"
+        app:srcCompat="@drawable/img_social" />
+
+    <ImageView
+        android:id="@+id/img_economics2"
+        android:layout_width="91dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txt_economics3"
+        app:srcCompat="@drawable/img_social" />
+
+    <EditText
+        android:id="@+id/txt_economics3"
+        android:layout_width="74dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Social"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_economics" />
+
+    <View
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@drawable/gradient"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></View>
+
+
+    <EditText
+        android:id="@+id/txtmenu"
+        android:layout_width="273dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txt_appname"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/img_politics"
+        android:layout_width="113dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        app:layout_constraintStart_toEndOf="@+id/img_economics"
+        app:layout_constraintTop_toBottomOf="@+id/txt_politics"
+        app:srcCompat="@drawable/img_politics" />
+
+    <EditText
+        android:id="@+id/txt_politics"
+        android:layout_width="63dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="64dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Politics"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/txt_economics"
+        app:layout_constraintTop_toTopOf="@+id/menu" />
+
+    <ImageView
+        android:id="@+id/img_economics"
+        android:layout_width="91dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txt_economics"
+        app:srcCompat="@drawable/img_economics" />
+
+    <ImageView
+        android:id="@+id/img_environment"
+        android:layout_width="94dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toEndOf="@+id/img_politics"
+        app:layout_constraintTop_toBottomOf="@+id/txtmenu"
+        app:srcCompat="@drawable/img_environment" />
+
+    <EditText
+        android:id="@+id/txt_economics"
+        android:layout_width="95dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="68dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Economics"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/menu" />
+
+    <EditText
+        android:id="@+id/txt_environment"
+        android:layout_width="135dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Environment"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/txt_politics"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <View
+        android:layout_width="400dp"
+        android:layout_height="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="364dp"
+        android:background="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="321dp"
+        android:layout_height="185dp"
+        android:text="SPACE FOR ADS"
+        android:textColor="#FF5722"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
